@@ -1,13 +1,6 @@
-package com.comment.entity;
+package com.comment.DTO;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-
-@Entity
-@Table(name="comment")
-public class Comment {
-    @Id
+public class CommentDTO {
     private String id;
 
     private String name;
